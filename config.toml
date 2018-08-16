@@ -1,0 +1,202 @@
+# Main config file for icon theme.
+theme = "hugo-icon"
+baseURL = "https://www.example.com/"
+languageCode = "en-AU"
+title = "SEO Expert"
+
+# Metadata
+[params]
+  author = "Abdoulaye Balde"
+  description = "Get More Client From Organic Search With SEO Expert"
+
+# Hero section (from here on is for icon theme)
+[params.hero]
+  img = "images/hero_bg.jpg"
+  title = "Get More Client From Organic Search With SEO Expert"
+  description = "When we search for your Keyword, What page will we find you on?"
+
+# Navigation section
+[params.nav]
+  mission = "Our Mission"
+  services = "Services"
+  # team = "The Team"
+  contact = "Get In Touch"
+  # Include logo instead if HOME:
+  # logo = "path/to/logo"
+
+# Mission section
+[params.mission]
+  enable = true
+
+  [params.mission.images]
+    enable = true
+
+    [[params.mission.images.list]]
+      img = "images/img_3.jpg"
+    [[params.mission.images.list]]
+      img = "images/img_2.jpg"
+    [[params.mission.images.list]]
+      img = "images/img_1.jpg"
+    [[params.mission.images.list]]
+      img = "images/img_4.jpg"
+
+  [[params.mission.item]]
+    weight = 1
+    name = "seo"
+    title = "Search Engine Optimization"
+    subtitle = """When clients Google for the services you provide, 90% don't
+            go past the second page. If you find yourself on page 20, your competition
+            is eating your piece of the pie. Don't let them have it."""
+    description =  """<p>This is why we are here. You focus on serving your clients
+            to the best of your abilities and we focus on making sure your clients
+            can find you with ease after a simple google search,.</p>
+        <ul class='checked'><li>On site SEO</li>
+            <li>Backlinks from high quality websites</li>
+            <li>Keyword Analysis & Research</li>
+            <li>Competitor website analysis</li></ul>
+            <p align = "center"><a href='#' class='btn btn-primary btn-outline fh5co-content-nav'
+             data-nav-section='contact'>Get me More Clients</a></p>"""
+
+ [[params.mission.item]]
+    weight = 2
+    name = "webDev"
+    title = "Website Development & Optimization"
+    subtitle = """What's the point of having a website if it doesn't convert
+            visitors into customers or at the bare minimum, turn those
+            visitors into FANS."""
+    description =  """<p>Once a visitor lands on your webstie, you have a couple
+                of seconds to catch their attention before they leave to never
+                return again. Does your website demonstrate who you are? Does
+                your website clearly show the visitor how you can improve their
+                 life? Does your website show them the exact steps they need
+                 to take to benefit from your offer? If not we need to fix
+                 that NOW!</p>
+            <ul class='checked'><li>Website Creation</li>
+                <li>Website Optimization</li>
+                <li>Lead Magnet to capture visitors</li>
+                <li>Call to action to make those visitors buy from you</li></ul>
+                <p align = "center"><a href='#' class='btn btn-primary btn-outline fh5co-content-nav'
+                data-nav-section='contact'>Make my Website Better</a></p>"""
+
+    [[params.mission.item]]
+        weight = 3
+        name = "copy"
+        title = "Copyrighting that actually Works"
+        subtitle = """You can have the most beautiful site in the world, yet
+            if it doesn't appeal to your clients you just wasted a bunch of
+            money on development. What you say in your website is more important
+            than how it looks!"""
+        description =  """<p>The downfall of the majority of businesses is that
+                although their products are amazing and has the potential to
+                improve the life of their customers, they explain them in a way
+                that nobody cares about. Nobody cares how good your product is
+                 or how you created it. All they care about is themselves.
+                 </p>
+               <ul class='checked'><li>What's in it for them?</li>
+                   <li>What can your product do for them?</li>
+                   <li>How can they lead better lives because of you?</li>
+                   <li>How can your product help them outclass their neighbor?</li></ul>
+                   <p align = "center"><a href='#' class='btn btn-primary btn-outline fh5co-content-nav'
+                   data-nav-section='contact'>Find out How</a></p>"""
+
+
+# Services section
+[params.services]
+  enable = true
+  video = false
+  vidlink = "https://vimeo.com/channels/staffpicks/93951774"
+  title = "What We Can Do For You"
+  description = "This is how we can put more money in your bank account"
+
+  [[params.services.item]]
+    icon = "icon-present"
+    title = "Web Development"
+    description = """Creating or Optimizing your website to convert visitors into
+                    Buyers AND Fans"""
+
+  [[params.services.item]]
+    icon = "icon-eye"
+    title = "Search Engine Optimization"
+    description = "Out rank your competitors for all the important keywords"
+
+
+  [[params.services.item]]
+    icon = "icon-pencil"
+    title = "Copyrighting"
+    description = """Using the power of language and the written word
+        to lead your clients towards any outcome you want"""
+
+
+
+# Work section
+[params.work]
+  enable = true
+
+  [[params.work.item]]
+    title = "Search Engine Optimization"
+    subtitle = "SEO"
+    img = "img/seo.jpeg"
+
+  [[params.work.item]]
+    title = "Website Creation"
+    subtitle = "Web Design"
+    img = "img/website.jpeg"
+
+  [[params.work.item]]
+    title = "Website Optimization"
+    subtitle = "Web Design"
+    img = "img/webdev.jpg"
+
+  [[params.work.item]]
+    title = "Content Copywriting"
+    subtitle = "Copy that Converts"
+    img = "img/copy.jpg"
+
+
+
+
+# Team section
+# [params.team]
+#   enable = false
+#   title = "Meet The Team"
+#   description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+#
+#   [[params.team.item]]
+#     name = "Jean Doe"
+#     position = "Chief legend"
+#     description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+#     img = "images/person1.jpg"
+#     facebook = "#"
+#     twitter = "#"
+#     dribbble = "#"
+#     instagram = "#"
+#     github = "#"
+#     linkedin = "#"
+
+
+
+# Contact section
+[params.contact]
+  enable = true
+  title = "Get An SEO Analysis"
+  message = "Get a free PDF SEO analysis of your website"
+  name_placeholder = "Your name"
+  email_placeholder = "Your email"
+  email_disclaimer = "No Spam EVER."
+  message_placeholder = "Please enter a message."
+  button_text = "Submit"
+
+# Footer section
+# Note here that the copyright and attribution statement must remain as part of the license agreement. If you wish to remove this, please contact freehtml5 and pay for a professional license.
+[params.footer]
+  enable = true
+  note = """<p><small>&copy; 2018
+  <a href='https://www.seoexpert.com/' target='_blank'>SEO Expert</a>.
+   Designed by <a href='http://freehtml5.co/' target='_blank'>FreeHTML5.co</a>
+   All Rights Reserved.</a></small></p>"""
+  #github = "#"
+  # twitter = "#"
+  # facebook = "#"
+  # vine = "#"
+  # linkedin = "#"
+  # instagram = "#"
