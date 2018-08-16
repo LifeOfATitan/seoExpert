@@ -1,6 +1,6 @@
 # Main config file for icon theme.
 theme = "hugo-icon"
-baseURL = "https://www.seo.netlify.com/"
+baseURL = "https://seo.netlify.com"
 languageCode = "en-AU"
 title = "SEO Expert"
 
