@@ -32,13 +32,13 @@ title = "SEO Expert"
     enable = true
 
     [[params.mission.images.list]]
-      img = "images/img_3.jpg"
+      img = "img/seo.jpeg"
     [[params.mission.images.list]]
-      img = "images/img_2.jpg"
+      img = "img/copy.jpg"
     [[params.mission.images.list]]
-      img = "images/img_1.jpg"
+      img = "img/website.jpeg"
     [[params.mission.images.list]]
-      img = "images/img_4.jpg"
+      img = "img/webdev.jpg"
 
   [[params.mission.item]]
     weight = 1
